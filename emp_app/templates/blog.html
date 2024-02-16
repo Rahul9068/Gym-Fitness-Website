@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    {% load static%}
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'index.css'%}">
+    {% load static%}
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <!--header section start-->
+    <header class="header">
+        <a href="#" class="logo"> <span>BE</span>FIT </a>
+        <div id="menu-btn" class="fas fa-bars">
+
+        </div>
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/feature">feature</a>
+            <a href="/pricing">Pricing</a>
+            <a href="/banner">banner</a>
+            <a href="/blog">blog</a>
+        </nav>
+    </header><br><br><br>
+    <!--header section end-->
+    <!--blog section blog-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading_blogs"><span>daily post</span></h1><br>
+        <div class="slide1">
+            <div class="image1">
+                {% load static%}
+                <img src="{% static 'blog-1.jpg'%}" alt="about-img">
+            </div>
+            <div class="cont">
+                <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">3rd january, 2023</a></div>
+                <h3>fitness is not about being better than someone else</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dolorem.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="slide1">
+            <div class="image1">
+                {% load static%}
+                <img src="{% static 'blog-2.jpg'%}" alt="about-img">
+            </div>
+            <div class="cont">
+                <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">3rd january, 2023</a></div>
+                <h3>fitness is not about being better than someone else</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dolorem.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="slide1">
+            <div class="image1">
+                {% load static%}
+                <img src="{% static 'blog-3.jpg'%}" alt="about-img">
+            </div>
+            <div class="cont">
+                <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">3rd january, 2023</a></div>
+                <h3>fitness is not about being better than someone else</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dolorem.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="slide1">
+            <div class="image1">
+                {% load static%}
+                <img src="{% static 'blog-5.jpg'%}" alt="about-img">
+            </div>
+            <div class="cont">
+                <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">3rd january, 2023</a></div>
+                <h3>fitness is not about being better than someone else</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dolorem.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+    <!--blog section end-->
+    <!--footer section start-->
+    <section class="footer">
+        <div class="bocont">
+            <div class="boc">
+                <h3>quick links</h3>
+                <a class="links" href="/">Home</a>
+                <a class="links" href="/about">About</a>
+                <a class="links" href="/feature">feature</a>
+                <a class="links" href="/pricing">Pricing</a>
+                <a class="links" href="/banner">banner</a>
+                <a class="links" href="/blog">blog</a>
+            </div>
+            <div class="boc">
+                <h3>opening hours</h3>
+                <p>monday : <i> 7:00am -10:30pm </i> </p>
+                <p>tuesday : <i> 7:00am -10:30pm </i> </p>
+                <p>wednesday : <i> 7:00am -10:30pm </i> </p>
+                <p>thursday : <i> 7:00am -10:30pm </i> </p>
+                <p>friday : <i> 7:00am -10:30pm </i> </p>
+                <p>saturday : <i> 7:00am -10:30pm </i> </p>
+                <p>sunday : <i> closed </i> </p>
+            </div>
+            <div class="boc">
+                <h3>opening hours</h3>
+                <p> <i class="fas fa-phone"></i> +91-7865453421 </p>
+                <p> <i class="fas fa-phone"></i> +91-9865564456 </p>
+                <p> <i class="fas fa-envelope"></i> 7835rahulsingh@gmail.com </p>
+                <p> <i class="fas fa-map"></i> Dehradun, india 248001 </p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="credit">created by <span>rahul singh</span> | all rights are reserved! </div>
+    <!--footer section end-->
+</body>
+
+</html>

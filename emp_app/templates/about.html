@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    {% load static%}
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'index.css'%}">
+    {% load static%}
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <!--header section start-->
+    <header class="header">
+        <a href="#" class="logo"> <span>BE</span>FIT </a>
+        <div id="menu-btn" class="fas fa-bars">
+
+        </div>
+        <nav class="navbar">
+             <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/feature">feature</a>
+            <a href="/pricing">Pricing</a>
+            <a href="/banner">banner</a>
+            <a href="/blog">blog</a>
+        </nav>
+    </header><br><br>
+    <!--header section end-->
+    <!--about section start-->
+    <section class="about" id="about">
+        <div class="image">
+            {% load static%}
+            <img src="{% static 'about-img.jpg'%}" alt="about-img" style="width: 100%;">
+        </div>
+        <div class="content">
+            <span>about us</span>
+            <h3 class="title">Every day is a chance to become better</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eligendi molestias sit, inventore ex
+                dicta consequatur debitis repellendus modi iste neque cumque rerum omnis provident esse, adipisci
+                delectus voluptas tempore.</p>
+            <div class="box-container">
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>body and mind</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, repudiandae.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>healthy life</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, repudiandae.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>strategies</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, repudiandae.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>workout</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, repudiandae.</p>
+                </div>
+            </div>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </section>
+    <!--about section end-->
+    <!--footer section start-->
+    <section class="footer">
+        <div class="bocont">
+            <div class="boc">
+                <h3>quick links</h3>
+                <a class="links" href="/">Home</a>
+                <a class="links" href="/about">About</a>
+                <a class="links" href="/feature">feature</a>
+                <a class="links" href="/pricing">Pricing</a>
+                <a class="links" href="/banner">banner</a>
+                <a class="links" href="/blog">blog</a>
+            </div>
+            <div class="boc">
+                <h3>opening hours</h3>
+                <p>monday : <i> 7:00am -10:30pm </i> </p>
+                <p>tuesday : <i> 7:00am -10:30pm </i> </p>
+                <p>wednesday : <i> 7:00am -10:30pm </i> </p>
+                <p>thursday : <i> 7:00am -10:30pm </i> </p>
+                <p>friday : <i> 7:00am -10:30pm </i> </p>
+                <p>saturday : <i> 7:00am -10:30pm </i> </p>
+                <p>sunday : <i> closed </i> </p>
+            </div>
+            <div class="boc">
+                <h3>opening hours</h3>
+                <p> <i class="fas fa-phone"></i> +91-7865453421 </p>
+                <p> <i class="fas fa-phone"></i> +91-9865564456 </p>
+                <p> <i class="fas fa-envelope"></i> 7835rahulsingh@gmail.com </p>
+                <p> <i class="fas fa-map"></i> Dehradun, india 248001 </p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="credit">created by <span>rahul singh</span> | all rights are reserved! </div>
+    <!--footer section end-->
+
+</body>
+
+</html>

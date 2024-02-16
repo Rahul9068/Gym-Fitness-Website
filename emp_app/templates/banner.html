@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    {% load static%}
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'index.css'%}">
+    {% load static%}
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <!--header section start-->
+    <header class="header">
+        <a href="#" class="logo"> <span>BE</span>FIT </a>
+        <div id="menu-btn" class="fas fa-bars">
+
+        </div>
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/feature">feature</a>
+            <a href="/pricing">Pricing</a>
+            <a href="/banner">banner</a>
+            <a href="/blog">blog</a>
+        </nav>
+    </header><br><br><br><br>
+    <!--header section end-->
+    <!--banner section starts-->
+    {% load static%}
+    <div class="banner">
+        <span>join us</span>
+        <h3>get upto 50% discount</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque nam dicta nulla voluptas quae. Quisquam
+            totam vel soluta deleniti vitae.</p>
+        <a href="#" class="btn">get discount</a>
+    </div>
+    <!--banner section end-->
+    <!--review section start-->
+    <section class="review">
+        <div class="inform">
+            <span>testimonials</span>
+            <h3>what our cient says</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis sapiente, laborum aliquid nisi nemo
+                velit at nostrum laboriosam aspernatur eveniet!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="client">
+            <div class="user">
+                {% load static%}
+                <img src="{% static 'pic-1.png'%}" alt="about-img">
+                <div class="info">
+                    <h3>john doe</h3>
+                    <span>designer</span>
+                </div>
+                <i class="fas.fa-quote-left"></i>
+            </div>
+            <div class="user">
+                {% load static%}
+                <img src="{% static 'pic-2.png'%}" alt="about-img">
+                <div class="info">
+                    <h3>john doe</h3>
+                    <span>designer</span>
+                </div>
+                <i class="fas.fa-quote-left"></i>
+            </div>
+            <div class="user">
+                {% load static%}
+                <img src="{% static 'pic-3.png'%}" alt="about-img">
+                <div class="info">
+                    <h3>john doe</h3>
+                    <span>designer</span>
+                </div>
+                <i class="fas.fa-quote-left"></i>
+            </div>
+            <div class="user">
+                {% load static%}
+                <img src="{% static 'pic-4.png'%}" alt="about-img">
+                <div class="info">
+                    <h3>john doe</h3>
+                    <span>designer</span>
+                </div>
+                <i class="fas.fa-quote-left"></i>
+            </div>
+        </div>
+    </section>
+    <!--review section end-->
+    <!--footer section start-->
+    <section class="footer">
+        <div class="bocont">
+            <div class="boc">
+                <h3>quick links</h3>
+                <a class="links" href="/">Home</a>
+                <a class="links" href="/about">About</a>
+                <a class="links" href="/feature">feature</a>
+                <a class="links" href="/pricing">Pricing</a>
+                <a class="links" href="/banner">banner</a>
+                <a class="links" href="/blog">blog</a>
+            </div>
+            <div class="boc">
+                <h3>opening hours</h3>
+                <p>monday : <i> 7:00am -10:30pm </i> </p>
+                <p>tuesday : <i> 7:00am -10:30pm </i> </p>
+                <p>wednesday : <i> 7:00am -10:30pm </i> </p>
+                <p>thursday : <i> 7:00am -10:30pm </i> </p>
+                <p>friday : <i> 7:00am -10:30pm </i> </p>
+                <p>saturday : <i> 7:00am -10:30pm </i> </p>
+                <p>sunday : <i> closed </i> </p>
+            </div>
+            <div class="boc">
+                <h3>opening hours</h3>
+                <p> <i class="fas fa-phone"></i> +91-7865453421 </p>
+                <p> <i class="fas fa-phone"></i> +91-9865564456 </p>
+                <p> <i class="fas fa-envelope"></i> 7835rahulsingh@gmail.com </p>
+                <p> <i class="fas fa-map"></i> Dehradun, india 248001 </p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="credit">created by <span>rahul singh</span> | all rights are reserved! </div>
+    <!--footer section end-->
+</body>
+
+</html>
